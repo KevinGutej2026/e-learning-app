@@ -33,6 +33,204 @@
   </header>
 
   <main class="hero">
+    <section class="kotlin-info">
+
+  <div class="container">
+
+    <div class="info-heading">
+      <div class="hero-badge">
+        <span></span>
+        Kotlin Documentation
+      </div>
+
+      <h2>
+        Nowoczesny język programowania
+        dla aplikacji mobilnych,
+        backendowych i multiplatformowych
+      </h2>
+
+      <p>
+        Kotlin to statycznie typowany język programowania rozwijany przez JetBrains,
+        zaprojektowany z myślą o wysokiej czytelności kodu, bezpieczeństwie typów
+        oraz nowoczesnym podejściu do tworzenia aplikacji. Język jest w pełni
+        interoperacyjny z Javą i oficjalnie wspierany przez Google jako główny
+        język do tworzenia aplikacji Android.
+      </p>
+    </div>
+
+    <div class="info-grid">
+
+      <div class="info-card">
+        <h3>Czym jest Kotlin?</h3>
+
+        <p>
+          Kotlin został zaprojektowany jako nowoczesna alternatywa dla języka Java.
+          Łączy programowanie obiektowe oraz funkcyjne, oferując krótszy,
+          bardziej przejrzysty i bezpieczniejszy kod.
+        </p>
+
+        <p>
+          Język działa na maszynie JVM, może być kompilowany do JavaScript
+          oraz natywnego kodu przy użyciu Kotlin Native.
+        </p>
+      </div>
+
+      <div class="info-card">
+        <h3>Najważniejsze cechy języka</h3>
+
+        <ul>
+          <li>Statyczne typowanie</li>
+          <li>Null Safety eliminujący większość NullPointerException</li>
+          <li>Coroutines do programowania asynchronicznego</li>
+          <li>Extension Functions</li>
+          <li>Data Classes</li>
+          <li>Sealed Classes</li>
+          <li>Smart Casts</li>
+          <li>Type Inference</li>
+          <li>Interoperacyjność z Javą</li>
+        </ul>
+      </div>
+
+      <div class="info-card">
+        <h3>Definiowanie funkcji</h3>
+
+        <p>
+          Funkcje w Kotlinie definiowane są przy użyciu słowa kluczowego
+          <strong>fun</strong>. Każda funkcja może posiadać parametry,
+          typ zwracany oraz ciało funkcji.
+        </p>
+
+<pre>
+fun calculateSum(a: Int, b: Int): Int {
+    return a + b
+}
+</pre>
+
+        <p>
+          Kotlin wspiera również funkcje jednolinijkowe,
+          które poprawiają czytelność kodu.
+        </p>
+
+<pre>
+fun multiply(a: Int, b: Int) = a * b
+</pre>
+
+      </div>
+
+      <div class="info-card">
+        <h3>Parametry funkcji</h3>
+
+        <p>
+          Parametry w Kotlinie są jawnie typowane i domyślnie niemutowalne.
+          Język wspiera parametry nazwane oraz wartości domyślne.
+        </p>
+
+<pre>
+fun createUser(
+    username: String,
+    age: Int = 18
+) {
+    println(username)
+}
+</pre>
+
+        <ul>
+          <li>Parametry nazwane</li>
+          <li>Domyślne wartości parametrów</li>
+          <li>Silne typowanie danych</li>
+          <li>Lepsza czytelność API</li>
+        </ul>
+      </div>
+
+      <div class="info-card">
+        <h3>Wartości zwracane</h3>
+
+        <p>
+          Funkcje mogą zwracać dowolny typ danych.
+          Typ zwracany deklarowany jest po dwukropku.
+        </p>
+
+<pre>
+fun square(value: Int): Int {
+    return value * value
+}
+</pre>
+
+        <p>
+          Jeśli funkcja nic nie zwraca, używany jest typ
+          <strong>Unit</strong>.
+        </p>
+
+<pre>
+fun printMessage(): Unit {
+    println("Kotlin")
+}
+</pre>
+
+      </div>
+
+      <div class="info-card">
+        <h3>Programowanie asynchroniczne</h3>
+
+        <p>
+          Kotlin posiada wbudowany system Coroutines,
+          umożliwiający tworzenie wydajnych aplikacji asynchronicznych
+          bez konieczności zarządzania skomplikowanymi callbackami.
+        </p>
+
+<pre>
+suspend fun fetchData() {
+    delay(1000)
+    println("Data loaded")
+}
+</pre>
+
+        <p>
+          Coroutines są obecnie standardem w nowoczesnym Android Development.
+        </p>
+      </div>
+
+      <div class="info-card">
+        <h3>Zastosowania Kotlin</h3>
+
+        <ul>
+          <li>Android Development</li>
+          <li>Backend Development</li>
+          <li>Ktor Applications</li>
+          <li>Spring Boot</li>
+          <li>Desktop Applications</li>
+          <li>Kotlin Multiplatform</li>
+          <li>Web Applications</li>
+          <li>Microservices</li>
+        </ul>
+      </div>
+
+      <div class="info-card">
+        <h3>Dlaczego Kotlin?</h3>
+
+        <p>
+          Kotlin znacząco redukuje ilość boilerplate code,
+          poprawia bezpieczeństwo aplikacji oraz zwiększa produktywność
+          zespołów programistycznych.
+        </p>
+
+        <p>
+          Dzięki nowoczesnej składni i rozbudowanemu systemowi typów,
+          kod staje się bardziej przewidywalny, łatwiejszy w utrzymaniu
+          i mniej podatny na błędy runtime.
+        </p>
+
+        <p>
+          Kotlin jest obecnie jednym z najważniejszych języków
+          wykorzystywanych w ekosystemie JVM.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 
     <div class="container hero-wrapper">
 
